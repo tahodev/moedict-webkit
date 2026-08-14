@@ -23,9 +23,6 @@ serving surface.
 # 安裝相依套件
 npm i
 
-# 開發模式 (含 watch)
-gulp dev
-
 # 啟動靜態伺服器
 gulp run
 

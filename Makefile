@@ -7,9 +7,6 @@
 run ::
 	gulp run
 
-dev ::
-	gulp dev
-
 build ::
 	gulp build
 

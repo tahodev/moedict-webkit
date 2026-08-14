@@ -25,13 +25,10 @@ sudo npm i -g gulp
 ## Running a local instance
 
 ```sh
-# quick static server, uses the pre-built js/deps.js ( watches: sass/ .jade )
+# static server (watches: sass/ .jade)
 npm start
 
-# auto-reloads with react-hot-loader ( watches: sass/ .jade .ls )
-npm run dev
-
-# builds for deployment, using webpack and uglify
+# production rebuild of styles.css + js/deps.js
 npm run build
 
 ```
