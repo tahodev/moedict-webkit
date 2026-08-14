@@ -1,15 +1,17 @@
-# ⚠️ Frozen
+# ⚠️ Living frontend (`main`)
 
-**This repository no longer builds dictionary packs.** Pack generation lives
-in [`g0v/moedict-process`](https://github.com/g0v/moedict-process); search and
-pinyin indexes plus R2 uploads live in
-[`g0v/moedict.tw`](https://github.com/g0v/moedict.tw). The files here are the
-frozen static-frontend source for <https://www.moedict.org/>, served from this
-repo's gh-pages branch. The historical Perl/Python 2 pack toolchain and the
-HFS+ requirement were retired on 2026-07-10; dictionary data is regenerated
+**This `main` branch rebuilds the static frontend for
+<https://www.moedict.org/>.** Packs are not built here. The archived 2013
+dump plus later Dependabot merges stay on **`master`** — do not merge
+dependency PRs there.
+
+<https://www.moedict.org/> is served from this repo's **`gh-pages`**
+branch. The historical Perl/Python 2 pack toolchain and the HFS+
+requirement were retired on 2026-07-10; dictionary data is regenerated
 by `moedict-process` and synced to gh-pages and R2.
 
-This is the repository for the online and offline lookup app for <http://moedict.tw/>
+This is the living frontend source for the lookup app originally at
+<http://moedict.tw/>.
 
 ## Requirements
 

@@ -1,15 +1,16 @@
 # moedict-webkit
 
-# ⚠️ Frozen
+# ⚠️ Living frontend (`main`)
 
-**This repository no longer builds dictionary packs.** Pack generation lives in
+**This `main` branch rebuilds www.moedict.org.** Packs are not built
+here. **`master` is archived.** Do not archive or rename the GitHub
+repository — `gh-pages` is the live serving surface.
+
+Pack generation lives in
 [`g0v/moedict-process`](https://github.com/g0v/moedict-process) (`bun run pack`;
-see its `docs/pack-format-contract.md`). The files here are the frozen
-static-frontend source for **www.moedict.org**, served from this repo's
-`gh-pages` branch. Do NOT archive or rename this repo — gh-pages is the live
-serving surface.
+see its `docs/pack-format-contract.md`).
 
-萌典 (moedict.org) 靜態前端的源碼庫（凍結維護）。
+萌典 (moedict.org) 靜態前端的重建分支。封存 dump 在 `master`。
 
 ## 專案概述
 
